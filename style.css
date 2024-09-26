@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+header{
+    height: 56px;
+    width: 100%;
+    background-attachment: fixed;
+}
+#menu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 24px;
+    top: 16px;
+}
+
+#logo {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 80px;
+    top: 18px;
+}
+
+.pesquisa{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 348px;
+    height: 40px;
+    left: 526px;
+    top: 8px;
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+
+}
+
+.pesquisar{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    left: 873px;
+    top: 8px;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+}
+
+#lupa{
+
+    margin: auto;
+}
+
+#camera{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 89%;
+    top: 16px;
+}
+
+#sino{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 92.5%;
+    top: 16px;   
+}
+
+#avatar{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 96%;
+    top: 10px;
+    
+}
+
+main{
+ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 952px;
+height: 746px;
+left: 75px;
+top: 0;
+}
+
+main iframe{
+    width: 61vw;
+    height: 72vh;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+main h3{
+    width: 871px;
+    height: 23px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+
+.videoact{
+
+display: inline;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 42px;
+
+width: 902px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+
+}
+.logocanal{
+   /* Channel Avatar */
+   width: 42px;
+   height: 42px;
+
+   background: url("./images/Channel\ Avatar.png");
+
+   /* Inside auto layout */
+   flex: none;
+   order: 2;
+   flex-grow: 0;
+
+}
+
+.infoch{
+    /* DIO 83,3 mil inscritos */
+    width: 8rem;
+    height: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
