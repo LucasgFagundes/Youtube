@@ -126,15 +126,20 @@ main h3{
     
 }
 
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 14px;
+    padding: 0px;
+    flex: none;
+    flex-grow: 0;
+}
 
 .videoact{
 
-display: inline;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 42px;
+display: flex;
 
 width: 902px;
 height: 42px;
@@ -157,11 +162,10 @@ flex-grow: 0;
 
    /* Inside auto layout */
    flex: none;
-   order: 2;
+   order: 0;
    flex-grow: 0;
 
 }
-
 .infoch{
     /* DIO 83,3 mil inscritos */
     width: 8rem;
@@ -171,12 +175,13 @@ flex-grow: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-
+    position: absolute;
+    left: 3.3rem;
     color: #000000;
 
     /* Inside auto layout */
     flex: none;
-    order: 2;
+    order: 1;
     flex-grow: 0;
 
 }
